@@ -3,4 +3,5 @@
 #define COMBO_TERM 50
 #define TAPPING_TERM 200
 
-#define HOLD_ON_OTHER_KEY_PRESS
+#define HOLD_ON_OTHER_KEY_PRESS´
+#define QUICK_TAP_TERM 0
