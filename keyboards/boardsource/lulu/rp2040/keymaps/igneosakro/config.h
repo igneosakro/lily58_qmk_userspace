@@ -1,2 +1,6 @@
-#define COMBO_TERM 50
 #define MASTER_RIGHT
+
+#define COMBO_TERM 50
+#define TAPPING_TERM 200
+
+#define PERMISSIVE_HOLD
