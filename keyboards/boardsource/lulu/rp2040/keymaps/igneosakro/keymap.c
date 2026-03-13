@@ -1,4 +1,7 @@
 #include QMK_KEYBOARD_H
+#include "combo.h"
+
+#define COMBO_TERM 50
 
 enum layers {
     _BASE,
@@ -6,6 +9,16 @@ enum layers {
     _NUM,
     _SYM,
     _MOUSE
+};
+
+enum combo_events {
+    MOUSE_COMBO
+};
+
+const uint16_t PROGMEM mouse_combo[] = {KC_LALT, KC_SPC, COMBO_END};
+
+combo_t key_combos[] = {
+    [MOUSE_COMBO] = COMBO(mouse_combo, MO(4))
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
