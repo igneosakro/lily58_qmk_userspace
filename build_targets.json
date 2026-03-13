@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "user": "igneosakro",
+      "keyboards": [
+        {
+          "keyboard": "boardsource/lulu/rp2040",
+          "keymaps": ["default"]
+        }
+      ]
+    }
+  ]
+}
