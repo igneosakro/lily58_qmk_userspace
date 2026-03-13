@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
-
-#define COMBO_TERM 50
+#include "config.h"
 
 enum layers {
     _BASE,
