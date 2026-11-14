@@ -3,8 +3,8 @@
 
 enum layers {
     _BASE = 0,
-    _NUM,
     _NAV,
+    _NUM,
     _SYM,
     _MOUSE
 };
